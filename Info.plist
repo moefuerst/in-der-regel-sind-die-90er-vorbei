@@ -2,14 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Author</key>
+	<string>GELBSTICH</string>
 	<key>CFBundleDisplayName</key>
-	<string>in der Regel</string>
+	<string>In der Regel sind die 90er vorbei</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.gelbstich.inderregel</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.1 alpha</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -29,6 +31,8 @@
 			<string>regel.css</string>
 		</array>
 	</dict>
+	<key>Description</key>
+	<string>Unclutters the interface of Austrian online newspaper derstandard.at</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -43,5 +47,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://gelbstich.com/inderregel</string>
 </dict>
 </plist>

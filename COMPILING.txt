@@ -1,0 +1,22 @@
+/*
+Name: In der Regel sind die 90er vorbei Extension
+Author: Gelbstich
+Version: 0.1 alpha
+https://bitbucket.org/moritz/in-der-regel-sind-die-90er-vorbei/
+BSD-License
+*/
+
+
+# Compiling instructions
+
+
+## Dependencies
+In der Regel sind die 90er vorbei requires jQuery to run correctly, which is not provided
+with this source. Currently we include jQuery 1.6.1 (minified) which you can download here: http://code.jquery.com/jquery-1.6.1.min.js or here: http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js
+Just include it in your sources directory and **double-check that the filename is correct** when you compile the extension in Safari Extension Builder (e.g. update Info.plist) or Chrome.
+
+
+## Compiling with Safari Extension Builder
+
+
+## Compiling with Chrome
