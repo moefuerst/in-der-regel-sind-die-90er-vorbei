@@ -1,0 +1,45 @@
+/* insert dev */
+
+
+/*
+//----------------------------------------------------------------------------------------------------
+// Remove Background Colors
+//----------------------------------------------------------------------------------------------------
+*/
+html, body, #pageTop, #documentCanvas, .white, .graugruen, .subBgRight, .box,
+#navLine2, #navLine1, #navLine1 li ul  {background-color: #fff !important;}
+#navigation {background-image: none !important;}
+
+#navLine1, #navLine1 a {color:#000 !important;}
+#navLine2, #navLine2 a {color:#000 !important;}
+
+
+/*
+//----------------------------------------------------------------------------------------------------
+// Remove Clutter
+//----------------------------------------------------------------------------------------------------
+*/
+#toolbar, #articleTools, #weiterLesen, #wetterWidget, #ivw, #navHead, .lookupLinksArtikel {display: none !important;}
+#navLine1, #navLine2 {padding-left: 0px !important;} 
+
+
+/*
+//----------------------------------------------------------------------------------------------------
+// Restore Standard UI Behavior
+//----------------------------------------------------------------------------------------------------
+*/
+#pageTop, #documentCanvas {position:static !important; z-index: none !important;}
+#navigation {border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important;}
+
+#documentCanvas {margin-top: 1em !important; padding-top: 1em !important; border-top: none !important;}
+
+body {padding-top:.5em !important;}
+
+.centerThis {width:975px !important; height: auto !important; padding:0px !important; top:none !important; left:none !important; margin:0 auto !important; display: inline !important;}
+
+/*
+//----------------------------------------------------------------------------------------------------
+// Asozial-Mode™
+//----------------------------------------------------------------------------------------------------
+*/
+.communityCanvas {display: none !important;}
