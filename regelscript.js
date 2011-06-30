@@ -8,7 +8,7 @@ BSD-License
 
 $(document).ready(function(){
 
-  // move the search bar
+  // move the search bar up n right
   $( '#widgets' ).insertBefore( $('#navigation') );
   $( '#widgets' ).show();
 

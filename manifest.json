@@ -1,7 +1,7 @@
 {
   "name": "In der Regel sind die 90er vorbei Extension",
   "version": "0.9",
-  "description": "Uncluttering the interface of Austrian online newspaper derstandard.at since 2011.",
+  "description": "Uncluttering the interface of Austrian online newspaper derstandard.at since 2011",
   "content_scripts": [{
     "matches": ["http://derstandard.at/*", "http://dastandard.at/*", "http://diestandard.at/*"],
     "css" : ["regel.css"]

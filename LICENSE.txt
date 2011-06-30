@@ -25,5 +25,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ============
 
-In der Regel sind die 90er vorbei uses JQuery
+Please note: In der Regel sind die 90er vorbei uses JQuery
 
