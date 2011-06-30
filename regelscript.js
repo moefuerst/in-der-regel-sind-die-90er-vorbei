@@ -8,9 +8,9 @@ BSD-License
 
 $(document).ready(function(){
 
-// create a wrapper div for centering the page
-//$( '.stdChrome' ).wrapAll( '<div id="centerThis" />' );
-
+  // move the search bar
+  $( '#widgets' ).insertBefore( $('#navigation') );
+  $( '#widgets' ).show();
 
 }) 
 
