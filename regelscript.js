@@ -1,7 +1,7 @@
 /*
 Name: In der Regel sind die 90er vorbei Extension
 Author: Gelbstich
-Version: 1.0
+Version: 0.9
 https://bitbucket.org/moritz/in-der-regel-sind-die-90er-vorbei/
 BSD-License
 */

@@ -1,7 +1,7 @@
 /*
 Name: In der Regel sind die 90er vorbei Extension
 Author: Gelbstich
-Version: 1.0
+Version: 0.9
 https://bitbucket.org/moritz/in-der-regel-sind-die-90er-vorbei/
 BSD-License
 */
@@ -40,7 +40,7 @@ html, body, #pageTop, #documentCanvas, .white, .graugruen, .subBgRight, .box,
 #documentCanvas {margin-top: 1em !important; padding-top: 1em !important; border-top: none !important;}
 
 html {width: 100% !important;}
-body {width: 975px !important; margin: 0 auto !important;}
+body {width: 975px !important; margin: 0 auto !important; padding-top: 0em !important;}
 
 #centerThis {position: relative !important; width:975px !important; height: auto !important; top:none !important; left:none !important; 
 margin:0 auto !important; border: none !important;}
