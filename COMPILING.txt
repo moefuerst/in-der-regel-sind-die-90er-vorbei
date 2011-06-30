@@ -28,3 +28,14 @@ Source files you'll need:
 
 
 ## Compiling with Chrome
+
+Source files you'll need:
+* manifest.json
+* regel.css
+*
+
+After checking out the repository fire up your Chrome browser and open the extension tab (Window -> Extensions or simply chrome://extensions). On the right hand side press the little plus sign next to „Developer mode“. Next click “Load unpacked extensions...“ and navigate to the folder you just checked out the repository to. Click ok and you're done, the extension is already activated for you. 
+
+Now visit http://derstandard.at and enjoy a clutter-free user experience! 
+
+PS: It's working on dastandard.at and diestandard.at too! Yeah!
