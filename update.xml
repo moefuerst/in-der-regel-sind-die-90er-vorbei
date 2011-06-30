@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
+  <app appid='kiangkkfhpegiibjbifomjelooomecdl'>
+    <updatecheck codebase='http://gelbstich.com/inderregel/in-der-regel-sind-die-90er-vorbei.crx' version='0.1' />
+  </app>
+</gupdate>
