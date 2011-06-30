@@ -33,18 +33,16 @@ html, body, #pageTop, #documentCanvas, .white, .graugruen, .subBgRight, .box, .m
 ** ---------------------------------------------------------------------------------------------------------------------------- */
 #pageTop, #documentCanvas, #breadCrumbs, #navLine1, #navLine2, .siteFooter {position:static !important; z-index: none !important;}
 
-#navigation {position:relative !important; border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important; padding-left: 0px !important; margin-top: 2em !important;}
+#navigation {position:relative !important; border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important; padding-left: 0px !important; margin-top: 2em !important; font-size: 1.3em !important; line-height: 1.2em !important;}
+#navLine2 {padding-top:.3em !important;}
 
 #ivw {position: static !important; display: none !important;}
 
 #documentCanvas {margin-top: 1em !important; padding-top: 1em !important; border-top: none !important;}
-.ressortTools {margin-top: 0px !important;}
+.ressortTools {margin-top: 0px !important; margin-bottom: 1em !important;}
 
 html {width: 100% !important;}
 body {width: 945px !important; margin: 0 auto !important; padding-top: 0em !important;}
-
-#centerThis {position: relative !important; width:975px !important; height: auto !important; top:none !important; left:none !important; 
-margin:0 auto !important; border: none !important;}
 
 
 #pageTop, #breadCrumbs, #navigation, #documentCanvas {float: left; top: auto !important; left: auto !important; height: auto !important;
@@ -54,7 +52,7 @@ border-top: none !important;}
 
 #breadCrumbs {padding-left: .5em !important;}
 
-#widgets {left: 655px !important; top: 2.5em !important; display: none;   /*display is overwritten via js later!*/}
+#widgets {left: 655px !important; top: 2em !important; display: none;   /*display is overwritten via js later!*/}
 
 .siteFooter {width:auto !important; height: auto !important; margin-top: 4em !important; padding-left: 5px !important;}
 
@@ -65,8 +63,10 @@ border-top: none !important;}
 #navLine1, #navLine2 {padding-left: 0px !important;} 
 
 
-
-
+/* ==================================================================================================================== */
+/*    LAYOUT CHANGES                                                                                                    */
+/* ==================================================================================================================== */
+#artikelBody {width: 505px !important;}
 
 
 /* ==================================================================================================================== */
