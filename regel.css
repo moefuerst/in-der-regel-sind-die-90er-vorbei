@@ -34,7 +34,7 @@ html, body, #pageTop, #documentCanvas, .white, .graugruen, .subBgRight, .box, .m
 #pageTop, #documentCanvas, #breadCrumbs, #navLine1, #navLine2, .siteFooter {position:static !important; z-index: none !important;}
 
 #navigation {position:relative !important; border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important; padding-left: 0px !important; margin-top: 2em !important; font-size: 1.3em !important; line-height: 1.2em !important;}
-#navLine2 {padding-top:.3em !important;}
+#navLine2 {padding-top:.2em !important;}
 
 #ivw {position: static !important; display: none !important;}
 
