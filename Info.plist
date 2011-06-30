@@ -42,11 +42,15 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.derstandard.at</string>
+				<string>*.diestandard.at</string>
+				<string>*.dastandard.at</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://gelbstich.com/inderregel/update.plist</string>
 	<key>Website</key>
 	<string>http://gelbstich.com/inderregel</string>
 </dict>
