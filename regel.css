@@ -31,16 +31,19 @@ html, body, #pageTop, #documentCanvas, .white, .graugruen, .subBgRight, .box,
 /* ----------------------------------------------------------------------------------------------------------------------------
 == Restore Standard UI Behavior
 ** ---------------------------------------------------------------------------------------------------------------------------- */
-#pageTop, #documentCanvas, #navigation, #breadCrumbs, #navLine1, #navLine2, .siteFooter {position:static !important; z-index: none !important; display: inline;}
-#navigation {border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important;}
+#pageTop, #documentCanvas, #breadCrumbs, #navLine1, #navLine2, .siteFooter {position:static !important; z-index: none !important;}
+
+#navigation {position:relative !important; border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important;}
 
 #ivw {position: static !important; display: none !important;}
 
 #documentCanvas {margin-top: 1em !important; padding-top: 1em !important; border-top: none !important;}
 
-body {padding-top:.5em !important; padding-left: 2em !important;}
+html {width: 100% !important;}
+body {width: 975px !important; margin: 0 auto !important;}
 
-#centerThis {display: inline !important; width:975px !important; height: auto !important; top:none !important; left:none !important; margin:0 auto !important; border: none !important;}
+#centerThis {position: relative !important; width:975px !important; height: auto !important; top:none !important; left:none !important; 
+margin:0 auto !important; border: none !important;}
 
 
 #pageTop, #breadCrumbs, #navigation, #documentCanvas, #widgets {float: left; top: auto !important; left: auto !important; height: auto !important;
