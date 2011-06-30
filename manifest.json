@@ -5,5 +5,6 @@
   "content_scripts": [{
     "matches": ["http://derstandard.at/*", "http://dastandard.at/*", "http://diestandard.at/*"],
     "css" : ["regel.css"]
-  }]
+  }],
+  "update_url": "http://gelbstich.com/inderregel/updates.xml"
 }
