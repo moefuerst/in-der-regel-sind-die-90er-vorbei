@@ -20,11 +20,19 @@ Please note that this project is BSD-licensed and include LICENSE.txt in your bu
 
 ## Compiling with Safari Extension Builder
 
+Note: In order to build Safari extensions, you have to be an Apple Registered Developer and request a certificate (http://developer.apple.com/certificates/) to sign any extension you create.
+
 Source files you'll need:
 * Info.plist
 * regel.css
 * regelscript.js
-*
+* jquery-1.6.1-min.js
+
+After checking out the repository fire up Safari and open the extension builder (Developer -> Extension Builder; if can't see 'Developer' in your menu bar, open Safari’s preferences by selecting ‘Safari, Preferences’ from the menu, click the 'Advanced' tab and place a check mark next to 'Show Develop menu in menu bar.'). Click the plus sign in the lower left corner, select 'Add extension' and navigate to the folder you just checked out the repository to. Click ok and you're done.
+
+Now visit http://derstandard.at and enjoy a clutter-free user experience!
+
+If you need more help, visit http://developer.apple.com/library/safari/#documentation/Tools/Conceptual/SafariExtensionGuide/UsingExtensionBuilder/UsingExtensionBuilder.html to familiarize yourself with the basics.
 
 
 ## Compiling with Chrome
@@ -32,7 +40,8 @@ Source files you'll need:
 Source files you'll need:
 * manifest.json
 * regel.css
-*
+* regelscript.js
+* jquery-1.6.1-min.js
 
 After checking out the repository fire up your Chrome browser and open the extension tab (Window -> Extensions or simply chrome://extensions). On the right hand side press the little plus sign next to „Developer mode“. Next click “Load unpacked extensions...“ and navigate to the folder you just checked out the repository to. Click ok and you're done, the extension is already activated for you. 
 
