@@ -1,7 +1,7 @@
 /*
 Name: In der Regel sind die 90er vorbei Extension
 Author: Gelbstich
-Version: 0.1 alpha
+Version: 1.0
 https://bitbucket.org/moritz/in-der-regel-sind-die-90er-vorbei/
 BSD-License
 */
@@ -11,13 +11,20 @@ BSD-License
 
 
 ## Dependencies
-In der Regel sind die 90er vorbei requires jQuery to run correctly, which is not provided
-with this source. Currently we include jQuery 1.6.1 (minified) which you can download here: http://code.jquery.com/jquery-1.6.1.min.js or here: http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js
+In der Regel sind die 90er vorbei requires jQuery to run correctly, which is not provided with this source. Currently we include jQuery 1.6.1 (minified) which you can download here: http://code.jquery.com/jquery-1.6.1.min.js or here: http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js
 
-Just include it in your sources directory and **double-check that the filename is correct** when you compile the extension in Safari Extension Builder (e.g. update Info.plist) or Chrome.
+Just put it in your sources directory and **double-check that the filename is correct** when you compile the extension in Safari Extension Builder (e.g. update Info.plist) or Chrome.
+
+Please note that this project is BSD-licensed and include LICENSE.txt in your bundle / provide the license with your download.
 
 
 ## Compiling with Safari Extension Builder
+
+Source files you'll need:
+* Info.plist
+* regel.css
+* regelscript.js
+*
 
 
 ## Compiling with Chrome
