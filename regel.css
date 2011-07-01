@@ -59,7 +59,7 @@ border-top: none !important;}
 /* ==================================================================================================================== */
 /*    REMOVE CLUTTER MODULE                                                                                             */
 /* ==================================================================================================================== */
-#toolbar, #weiterLesen, #wetterWidget, #ivw, #navHead, .lookupLinksArtikel {display: none !important;}
+#toolbar, #weiterLesen, #wetterWidget, #ivw, #navHead, .lookupLinksArtikel, #o1_1304554050158, #o1_1277337536244, #o2_1277337536329, #o3_1301873901289 {display: none !important;}
 #navLine1, #navLine2 {padding-left: 0px !important;} 
 
 
@@ -72,7 +72,7 @@ border-top: none !important;}
 /* ==================================================================================================================== */
 /*    ASOZIAL-MODE™                                                                                                     */
 /* ==================================================================================================================== */
-#articleTools {display: none !important;}
+#articleTools, #o1_1265852260504, #o2_1252036764303, #o3_1304551209023 {display: none !important;}
 
 
 
