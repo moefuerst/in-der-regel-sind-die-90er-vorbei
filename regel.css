@@ -40,7 +40,8 @@ em {font-style: italic;}
 #ivw {position: static !important; display: none !important;}
 
 #documentCanvas {margin-top: 1em !important; padding-top: 1em !important; border-top: none !important;}
-.ressortTools {margin-top: 0px !important; margin-bottom: 1em !important;}
+.ressortTools {margin-top: 0px !important; margin-bottom: 1em !important; }
+.ch_seite1 .resortTools {border-color: transparent !important;}
 
 html {width: 100% !important;}
 body {width: 945px !important; margin: 0 auto !important; padding-top: 0em !important;}
@@ -84,7 +85,9 @@ border-top: none !important;}
 /* ==================================================================================================================== */
 /*    ASOZIAL-MODE™                                                                                                     */
 /* ==================================================================================================================== */
-#articleTools, #o1_1265852260504, #o2_1252036764303, #o3_1304551209023 {display: none !important;}
+#articleTools, #o1_1265852260504, #o2_1252036764303, #o3_1304551209023, #o1_1326504327718,
+#o1_1308680695222, #o1_1319182229529, #o1_1252036764303, #o2_1304551209023, #o1_1326504225981,
+#o1_1276413219237, .socialmedia {display: none !important;}
 
 
 
