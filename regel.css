@@ -20,7 +20,7 @@ html,body,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,me
 ** ---------------------------------------------------------------------------------------------------------------------------- */
 html, body, #pageTop, #documentCanvas, #footer, .white, .graugruen, .subBgRight, .box, .mainBgRight,
 #navLine2, #navLine1, #navLine1 li ul, #nav_meinung ul, #nav_blogs ul, #nav_zuzweit ul, #nav_gebrauchtwagen ul, #nav_automobil ul, #nav_immobilien ul, #nav_karriere ul {background-color: #fff !important;}
-#navigation, #navHead, #navLine1, #navLine2, #nav_meinung ul, #nav_blogs ul, #nav_zuzweit ul, #nav_gebrauchtwagen ul, #nav_automobil ul, #nav_immobilien ul, #nav_karriere ul {background-image: none !important;}
+#navigation, #navHead, #navLine1, #navLine2, #nav_meinung ul, #nav_blogs ul, #nav_zuzweit ul, #nav_gebrauchtwagen ul, #nav_automobil ul, #nav_immobilien ul, #nav_karriere ul, #ressortTools {background-image: none !important;}
 
 #navLine1, #navLine1 a {color:#000 !important;}
 #navLine2, #navLine2 a {color:#000 !important;}
