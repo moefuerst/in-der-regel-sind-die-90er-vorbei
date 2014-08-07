@@ -25,6 +25,16 @@ html, body, #pageTop, #documentCanvas, #footer, .white, .graugruen, .subBgRight,
 #navLine1, #navLine1 a {color:#000 !important;}
 #navLine2, #navLine2 a {color:#000 !important;}
 
+ch_etat .light, .ch_etat .stdButton:active, #nav_etat ul {
+background-color: white !important;
+}
+
+.ch_etat img, .ch_etat div, .ch_etat ul, .ch_etat li, .ch_etat table, .ch_etat h5, .ch_etat .std-button {
+border-color: white !important;
+}
+
+#archive-calendar, .featureColBg, .col-C, .alternativ, .alternativ .stories {background: none !important; border: none !important;}
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------
 == Restore Standard UI Behavior
@@ -33,6 +43,7 @@ strong {font-weight: bold;}
 em {font-style: italic;}
 
 #pageTop, #documentCanvas, #breadCrumbs, #navLine1, #navLine2, .siteFooter {position:static !important; z-index: none !important;}
+
 
 #navigation {position:relative !important; border-bottom: 1px dotted #ccc !important; padding-bottom: 1em !important; padding-left: 0px !important; margin-top: 2em !important; font-size: 1.3em !important; line-height: 1.2em !important;}
 #navLine2 {padding-top:.2em !important;}
@@ -64,13 +75,16 @@ border-top: none !important;}
 /* ==================================================================================================================== */
 /*    REMOVE CLUTTER MODULE                                                                                             */
 /* ==================================================================================================================== */
-#toolbar, #weiterLesen, #wetterWidget, #ivw, #navHead, .lookupLinksArtikel, #o1_1304554050158, #o1_1277337536244, #o2_1277337536329, #o3_1301873901289, #o1_1304553757626, #o1_1304553457076, #o2_1304553457932 {display: none !important;}
+#navHome, #mzt, .socialsharing, #toolbar, #weiterLesen, #wetterWidget, #ivw, #navHead, .lookupLinksArtikel, #o1_1304554050158, #o1_1277337536244, #o2_1277337536329, #o3_1301873901289, #o1_1304553757626, #o1_1304553457076, #o2_1304553457932 {display: none !important;}
 #navLine1, #navLine2 {padding-left: 0px !important;} 
+
 
 
 /* ==================================================================================================================== */
 /*    LAYOUT CHANGES                                                                                                    */
 /* ==================================================================================================================== */
+#objectContent {width: 975px !important;}
+#content-main, #content-header, #objectContent .section {width: 642px !important;}
 #artikelBody {width: 595px !important; padding-left: 1.5em !important;}
 #artikelHeader {padding-left: 1.5em !important; width: 595px !important; }
 #artikelHeader h1 {font-size: 2em !important; }
@@ -82,7 +96,8 @@ border-top: none !important;}
 .copytext h2 {font-size: 1.2em !important;  padding-top: 1.1em !important;}
 .copytext p strong {padding-bottom:-.5em !important;}
 
-
+#breadcrumb {position: relative !important;}
+#widgets {margin-left: -130px !important;}
 /* ==================================================================================================================== */
 /*    ASOZIAL-MODE™                                                                                                     */
 /* ==================================================================================================================== */
