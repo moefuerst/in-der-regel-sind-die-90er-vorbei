@@ -1,6 +1,6 @@
 # In der Regel sind die 90er vorbei
 
-In der Regel sind die 90er vorbei is a BSD-licensed open-source browser-extension to unclutter, de-90-tize and improve your derStandard.at experience. [[http://i.imgur.com/FirhnBd.png?1|(To make it look like this)]]
+In der Regel sind die 90er vorbei is a BSD-licensed open-source browser-extension to unclutter, de-90-tize and improve your derStandard.at experience. [(To make it look like this)](http://i.imgur.com/FirhnBd.png?1)
 
 ## Features
 * **90s b gone** – removes the background-colors to improve readability, restores (some) commonly accepted interface conventions of modern web-development
@@ -19,7 +19,8 @@ In der Regel sind die 90er vorbei is a BSD-licensed open-source browser-extensio
 In der Regel sind die 90er vorbei is currently available as Safari / Chrome extension:
 [[https://bitbucket.org/moritz/in-der-regel-sind-die-90er-vorbei/downloads|Please refer to the download section to get the latest release]]
 
-### Current downloadable version:// **0.9 build 10** (this is an //alpha release!)//
+### Current downloadable version
+**0.9 build 10** (this is an alpha release!)
 [[Changelog|Changelog]]
 
 ## Upgrade
